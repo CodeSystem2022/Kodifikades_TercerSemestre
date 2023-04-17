@@ -14,6 +14,7 @@
 | **Número de semana** | **Scrum Master** |
 | ---- | ---- |
 | :pencil: semana 1 | *Miguel A. Bru Melis* |
-| :pencil: semana 2 | ** |
-| :pencil: semana 3 | ** |
-| :pencil: semana 4 | ** |
+| :pencil: semana 2 | *Eduardo Bru* |
+| :pencil: semana 3 | *Lucas Ruiz* |
+| :pencil: semana 4 | *Juan Cruz Reche* |
+| :pencil: semana 4 | *Nicolás Ortiz* |
