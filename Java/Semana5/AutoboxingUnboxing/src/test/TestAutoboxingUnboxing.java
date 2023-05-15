@@ -23,5 +23,4 @@ public class TestAutoboxingUnboxing {
         System.out.println("entero2 = " + entero2);
         
     }
-  
 }
