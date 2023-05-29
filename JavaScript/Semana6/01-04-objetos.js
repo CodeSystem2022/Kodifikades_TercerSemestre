@@ -12,3 +12,7 @@ function Person3(name, surname, email) {
 }
 const father = new Person3('Leo', 'Mattioli', 'elleon@gmail.com');
 console.log(father);
+
+//APPLY METHOD
+const array = ['Ing', '124981249'];
+console.log(father.nombreCompleto2.apply(father, array));
