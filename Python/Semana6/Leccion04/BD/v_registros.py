@@ -5,9 +5,11 @@ print(conexion)
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona WHERE id_persona IN (1, 2, 3) %s' #Placeholder  
-            id_persona = input ('Ingrese un número para el id_persona que desea observar: ') 
-            cursor.execute(sentencia, (id_persona,)) #ejecutamos la sentencia
+            sentencia = 'SELECT * FROM persona WHERE id_persona IN (1, 2, 3) %s' #Placeholder
+            inputIDs = input('Digite los id_persona a buscar (separados por coma): ')
+            primary_key = (tuple(inputIDs.split(', ')),)
+            id_persona = input('Ingrese un número para el id_persona que desea observar: ') 
+            cursor.execute(sentencia, primary_key) #ejecutamos la sentencia
             registros = cursor.fetchall()
             for registro in registros:
               print(registros)
