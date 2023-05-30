@@ -13,12 +13,13 @@
 
 | **Número de semana** | **Scrum Master** |
 | ---- | ---- |
-| :pencil: semana 1 | *Miguel A. Bru Melis* |
-| :pencil: semana 2 | *Eduardo Bru* |
-| :pencil: semana 3 | *Lucas Ruiz* |
-| :pencil: semana 4 | *Nicolás Ortiz* |
-| :pencil: semana 5 | *Miguel A. Bru Melis* |
-| :pencil: semana 6 | *Eduardo Bru* |
-| :pencil: semana 7 | *Lucas Ruiz* |
-| :pencil: semana 8 | *Nicolás Ortiz* |
-
+| :pencil: Semana 1 | *Miguel A. Bru Melis* |
+| :pencil: Semana 2 | *Eduardo Bru* |
+| :pencil: Semana 3 | *Lucas Ruiz* |
+| :pencil: Semana 4 | *Nicolás Ortiz* |
+| :pencil: Semana 5 | *Juan Cruz Reche* |
+| :pencil: Semana 6 | *Miguel A. Bru Melis* |
+| :pencil: Semana 7 | *Eduardo Bru* |
+| :pencil: Semana 8 | *Lucas Ruiz* |
+| :pencil: Semana 9 | *Nicolás Ortiz* |
+| :pencil: Semana 10 | *Juan Cruz Reche* |
