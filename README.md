@@ -18,7 +18,7 @@
 | :pencil: Semana 3 | *Lucas Ruiz* |
 | :pencil: Semana 4 | *Nicolás Ortiz* |
 | :pencil: Semana 5 | *Juan Cruz Reche* |
-| :pencil: Semana 6 | *Miguel A. Bru Melis** |
+| :pencil: Semana 6 | *Miguel A. Bru Melis* |
 | :pencil: Semana 7 | *Eduardo Bru* |
 | :pencil: Semana 8 | *Lucas Ruiz* |
 | :pencil: Semana 9 | *Nicolás Ortiz* |
