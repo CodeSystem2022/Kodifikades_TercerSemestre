@@ -2,7 +2,7 @@ package Java.Semana8.acceso_datos;
 
 import Java.Semana7.accesodatos.IAccessoDatos;
 
-public class ImplementacionOracle implements IAccessoDatos {
+public class ImplementacionOracle implements IAccesoDatos {
 
   @Override
   public void insertar() {
