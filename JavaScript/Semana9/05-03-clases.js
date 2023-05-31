@@ -3,14 +3,17 @@
 class Persona{ //Definimos la clase. //Clase padre
 
 //CLASE 8 STATIC, 8.2 Atributos estáticos:
-    static contadorObjetosPersona = 0; 
+    //static contadorObjetosPersona = 0; 
+
+    static contadorPersonas = 0;
     
     constructor(nombre, apellido){ 
         this._nombre = nombre;
         this._apellido = apellido; 
     //8.2 
         Persona.contadorObjetosPersona++;
-        console.log('Se incrementa el contador: '+' '+Persona.contadorObjetosPersona);
+        this.idPersona = ++Persona.contadorPersonas;
+       //console.log('Se incrementa el contador: '+' '+Persona.contadorObjetosPersona);
     }
   
     get nombre(){
@@ -31,7 +34,8 @@ class Persona{ //Definimos la clase. //Clase padre
     }
 
     nombreCompleto(){
-        return this._nombre + ' ' + this._apellido;
+        //return this._nombre + ' ' + this._apellido;
+        return this.idPersona + ' ' + this._nombre + ' ' + this._apellido;
     }
     
     toString(){ 
@@ -105,3 +109,12 @@ Empleado.saludar2(empleado1);
 //console.log(persona1.contadorObjetosPersona);
 console.log(Persona.contadorObjetosPersona); //Accedemos desde la clase padre Persona
 console.log(Empleado.contadorObjetosPersona); //Accedemos desde la clase hija Empleado
+
+console.log(persona1.toString());
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(Persona.contadorPersonas);
+
+let persona3 = new Persona('Carla', 'Pertosi');
+console.log(persona3.toString());
+console.log(Persona.contadorPersonas);
