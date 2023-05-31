@@ -1,4 +1,7 @@
 class Persona {
+	static countPersonObject = 0; //Atributo estatico
+	email = 'Default value email'; //Atributo no estatico
+  
 	constructor(nombre, apellido) {
 		this._nombre = nombre;
 		this._apellido = apellido;
