@@ -1,7 +1,7 @@
 class Persona {
 	static countPersonObject = 0; //Atributo estatico
 	email = 'Default value email'; //Atributo no estatico
-
+  
 	constructor(nombre, apellido) {
 		this._nombre = nombre;
 		this._apellido = apellido;
@@ -53,3 +53,11 @@ class Empleado extends Persona {
 		return super.nombreCompleto() + ', ' + this._departamento;
 	}
 }
+
+const employee1 = new Empleado('Lucas', 'Ruiz', 'Developer');
+console.log(employee1);
+console.log(employee1.nombreCompleto());
+console.log(employee1.toString());
+
+const person1 = new Persona('Lionel', 'Messi');
+console.log(person1.toString());
