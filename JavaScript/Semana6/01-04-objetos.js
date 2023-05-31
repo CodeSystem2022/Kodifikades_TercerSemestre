@@ -9,9 +9,17 @@ function Person3(name, surname, email) {
 	this.name = name;
 	this.email = email;
 	this.surname = surname;
+	this.fullname = function(){
+		return this.name + '' + this.apellido;
+	}
 }
 const father = new Person3('Leo', 'Mattioli', 'elleon@gmail.com');
 console.log(father);
+
+const mother = new Person3('Laura', 'Contrera', 'contreral@gmail.com');
+console.log(mother);
+console.log(mother.fullname());
+
 
 //APPLY METHOD
 const array = ['Ing', '124981249'];
