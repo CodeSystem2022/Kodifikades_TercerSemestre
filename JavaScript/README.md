@@ -9,6 +9,6 @@
 | *Semana 5* | *Juan Cruz Reche* | ✔️ *COMPLETO* |
 | *Semana 6* | *Miguel A. Bru Melis* | ✔️ *COMPLETO* |
 | *Semana 7* | *Eduardo Bru* | ✔️ *COMPLETO* |
-| *Semana 8* | *Lucas Ruiz* |  |
-| *Semana 9* | *Nicolás Ortiz* | |
+| *Semana 8* | *Lucas Ruiz* | ✔️ *COMPLETO* |
+| *Semana 9* | *Nicolás Ortiz* | ✔️ *COMPLETO* |
 | *Semana 10* | *Juan Cruz Reche* |  |
