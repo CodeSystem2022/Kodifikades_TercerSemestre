@@ -2,7 +2,8 @@
 
 class Persona{ //Definimos la clase. //Clase padre
 
-//CLASE 8 STATIC, 8.2 Atributos estáticos:
+//CLASE 8 STATIC
+// 8.2 Atributos estáticos:
     //static contadorObjetosPersona = 0; 
 
     static contadorPersonas = 0;
