@@ -1,8 +1,9 @@
 from logger_base import log
 
+
 class Persona:
     # Método Dunder Init
-    def __init__(self, id_persona, nombre, apellido, email):
+    def __init__(self, id_persona=None, nombre=None, apellido=None, email=None):
         self._id_persona = id_persona
         self._nombre = nombre
         self._apellido = apellido
@@ -51,7 +52,9 @@ class Persona:
 
 
 if __name__ == '__main__':
-  person1 = Person(1, 'Juan', 'Perez', 'juanp@gmail.com')
-  log.debug(person1)
-  person2 = Persona('Jose', 'Lepez', 'ljose@gmail.com')
-  log.debug(person2)
+    persona1 = Persona(1, 'Juan', 'Perez', 'jperez@gmail.com')
+    log.debug(persona1)
+    persona2 = Persona(nombre='Jose', apellido='Lerez', email='ljose@gmail.com')
+    log.debug(persona2)
+    persona1 = Persona(id_persona=1)
+    log.debug(persona1)
