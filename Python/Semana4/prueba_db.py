@@ -12,9 +12,7 @@ cursor = conexion.cursor()
 sentencia = 'SELECT * FROM pruebas' 
 cursor.execute(sentencia) 
 registros = cursor.fetchall() 
-
-#1.7 Cerramos la conexión y la consulta
-
 print(registros)
+
 cursor.close()
-conexion.close
+conexion.close()
