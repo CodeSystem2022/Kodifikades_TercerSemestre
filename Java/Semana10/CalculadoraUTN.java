@@ -29,3 +29,40 @@ public class CalculadoraUTN {
             }//Fin catch
         }//Fin while
     }//Fin main
+
+    public static void mostrarMenu(){
+        System.out.println("""
+                1. Suma
+                2. Resta
+                3. Multiplicacion
+                4. Division
+                5. Salir
+                """);
+    }
+
+    public static void ejecutarOperacion(int operacion, Scanner entrada){
+        System.out.println("Digite el valor del operando1: ");
+        var operando1 = Integer.parseInt(entrada.nextLine());
+        System.out.println("Digite el valor del operando2: ");
+        var operando2 = Integer.parseInt(entrada.nextLine());
+        int resultado;
+        switch(operacion){
+            case 1 -> {
+                resultado = operando1 + operando2;
+                System.out.println("Resultado de la suma: " + resultado);
+            }
+            case 2 -> {
+                resultado = operando1 - operando2;
+            }
+            case 3 -> {
+                resultado = operando1 * operando2;
+            }
+            case 4 -> {
+                resultado = operando1 / operando2;
+            }
+            case 5 -> {
+                break;
+            }
+        }
+    }
+}
