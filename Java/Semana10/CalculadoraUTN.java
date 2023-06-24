@@ -47,22 +47,24 @@ public class CalculadoraUTN {
         var operando2 = Integer.parseInt(entrada.nextLine());
         int resultado;
         switch(operacion){
-            case 1 -> {
+            case 1 -> { // Suma
                 resultado = operando1 + operando2;
                 System.out.println("Resultado de la suma: " + resultado);
             }
-            case 2 -> {
+            case 2 -> { // Resta
                 resultado = operando1 - operando2;
             }
-            case 3 -> {
+            case 3 -> { // Multiplicacion
                 resultado = operando1 * operando2;
             }
-            case 4 -> {
+            case 4 -> { // Division
                 resultado = operando1 / operando2;
             }
             case 5 -> {
+                System.out.println("Hasta pronto...");
                 break;
             }
+            default -> System.out.println("Opcion errones " + operacion);
         }
     }
 }
