@@ -1,3 +1,5 @@
+package Java.Semana10;
+
 import java.util.Scanner;
 
 public class CalculadoraUTN {
@@ -38,7 +40,8 @@ public class CalculadoraUTN {
                 4. Division
                 5. Salir
                 """);
-    }
+                System.out.print("operación a realizar?: ");
+    } //Fin metodo mostrarMenu
 
     public static void ejecutarOperacion(int operacion, Scanner entrada){
         System.out.println("Digite el valor del operando1: ");
