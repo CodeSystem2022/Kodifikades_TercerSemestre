@@ -25,4 +25,5 @@
 | :pencil: Semana 10 | *Juan Cruz Reche* |
 | :pencil: Semana 11 | *Miguel A. Bru Melis* |
 | :pencil: Semana 12 | *Eduardo Bru* |
+| :pencil: Semana 13 | *Lucas Ruiz* |
 
