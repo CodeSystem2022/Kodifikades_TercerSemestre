@@ -11,4 +11,4 @@
 | *Semana 7* | *Eduardo Bru* | ✔️ *COMPLETO* |
 | *Semana 8* | *Lucas Ruiz* | ✔️ *COMPLETO* |
 | *Semana 9* | *Nicolás Ortiz* | ✔️ *COMPLETO* |
-| *Semana 10* | *Juan Cruz Reche* |  |
+| *Semana 10* | *Juan Cruz Reche* | ✔️ *COMPLETO* |
