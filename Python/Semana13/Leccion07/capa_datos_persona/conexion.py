@@ -2,6 +2,7 @@ from psycopg2 import pool
 from logger_base import log
 import sys
 
+#SE CREA LA CLASE PARA LA CONEXIÓN CON LA BASE DE DATOS 
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
@@ -12,11 +13,19 @@ class Conexion:
     _MAX_CON = 5
     _pool = None
     
+    
+
+    #se crean los métodos
+
+    #Método para la conexion
     @classmethod
     def obtenerConexion(cls):
         conexion = cls.obtenerPool().getconn()
         log.debug(f'Conexion obtenida del pool: {conexion}')
         return conexion
+
+    #Método para el cursor
+    # 8.3 Creación de la Clase Conexion: Video 5
 
     @classmethod
     def obtenerCursor(cls):
@@ -46,10 +55,19 @@ class Conexion:
         cls.obtenerPool().putconn(conexion)
         log.debug(f'Regresamos la conexion del pool: {conexion}')
 
+    # 11.2 MétodocerrarConexiones()(Video2)
+    # Creamos un método para cerrar por completo el método pool de conexiones
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall()
+        
+
+
+# Prueba de errores de la clase Conection:
 
 if __name__ == '__main__':
     conexion1 = Conexion.obtenerConexion()
-    Conexion.liberarConexion(conexion1) 
+    Conexion.liberarConexion(conexion1) # Obtiene la conexión y la libera, mientras haya tras conexiones activas termina de ser ocupada, otras pueden estar conctadas al mismo tiempo.
     conexion2 = Conexion.obtenerConexion()
     Conexion.liberarConexion(conexion2)
     conexion3 = Conexion.obtenerConexion()
