@@ -1,6 +1,6 @@
 # Grupo: Kodifikades - Tercer Semestre
 
-![Logo](https://i.ibb.co/xMz2fWW/Logo-Grupo.png)
+![kodifikades](https://github.com/CodeSystem2022/Kodifikades_Tercer_Semestre/assets/81488933/71e64b9f-2890-447d-bb0b-0277eeee6f8c)
 
 ## :star: Integrantes:
 - :white_check_mark: Miguel A. Bru Melis <br>
