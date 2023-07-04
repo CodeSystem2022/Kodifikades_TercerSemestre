@@ -15,5 +15,5 @@
 | *Semana 9* | *Nicolás Ortiz* | ✔️ *COMPLETO* |
 | *Semana 10* | *Juan Cruz Reche* | ✔️ *COMPLETO* |
 | *Semana 11* | *Miguel A. Bru Melis* | ✔️ *COMPLETO* |
-| *Semana 12* | *Eduardo Bru* | ✔️ *FERIADO* |
+| *Semana 12* | *Eduardo Bru* | ✔️ *COMPLETO* |
 | *Semana 13* | *Lucas Ruiz* | ✔️ *COMPLETO* |
