@@ -15,7 +15,7 @@ class Persona {
 	set nombre(nombre) {
 		this._nombre = nombre;
 	}
-	//Tarea Asignada
+	
 	get apellido() {
 		return this._apellido;
 	}
@@ -54,10 +54,27 @@ class Empleado extends Persona {
 	}
 }
 
-const employee1 = new Empleado('Lucas', 'Ruiz', 'Developer');
-console.log(employee1);
-console.log(employee1.nombreCompleto());
-console.log(employee1.toString());
 
-const person1 = new Persona('Lionel', 'Messi');
-console.log(person1.toString());
+//Creamos objetos y los mostramos en consola:
+
+let persona1 = new Persona("Martín", "Perez"); //Creamos el objeto "persona1".
+//console.log(persona1.nombre); //llamamos al método get sin necesidad de usar ()
+persona1.nombre = 'Juan Carlos';   //modificamos el valor con el metodo set
+//console.log(persona1.nombre);
+persona1.apellido = 'Rodriguez';   //Modificamos el atributo "apellido" con el metodo set
+//console.log(persona1.apellido);    //Mostramos los cambios  para finalizar tarea asignada.
+//console.log(persona1); //Mostramos objeto persona1
+
+let persona2 = new Persona("Carlos","Lara"); //Creamos el objeto "persona2".
+//console.log(persona2.nombre);
+//persona2.nombre = 'Maria Laura';   
+//console.log(persona2.nombre);
+//console.log(persona2); //Mostramos objeto persona2
+
+let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
+//console.log(empleado1);
+console.log(empleado1.nombreCompleto()); 
+
+//Object.prototype.toString Esta es la manenera de acceder a metodos y atributos de forma dinamica
+console.log(empleado1.toString());
+console.log(persona1.toString()); //referencia de la clase padre

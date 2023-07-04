@@ -17,8 +17,6 @@ class PersonaDAO:
     _ACTUALIZAR = 'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
     _ELIMINAR = 'DELETE FROM persona WHERE id_persona=%s'
 
-    #Clase 9: Lunes 5 de junio.
-
     #Definimos los métodos de clase
     @classmethod
     def seleccionar(cls):
