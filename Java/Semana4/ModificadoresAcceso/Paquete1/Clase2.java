@@ -1,4 +1,4 @@
-package org.example;
+package ModificadoresAcceso.Paquete1;
 
 public class Clase2 {
 

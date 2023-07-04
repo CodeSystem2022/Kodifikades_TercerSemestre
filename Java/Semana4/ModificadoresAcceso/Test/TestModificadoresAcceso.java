@@ -1,4 +1,7 @@
-package org.example;
+package ModificadoresAcceso.Test;
+
+import ModificadoresAcceso.Paquete1.Clase1;
+import ModificadoresAcceso.Paquete2.Clase3;
 
 public class TestModificadoresAcceso {
 

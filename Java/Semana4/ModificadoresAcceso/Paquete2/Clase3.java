@@ -1,4 +1,6 @@
-package org.example;
+package ModificadoresAcceso.Paquete2;
+
+import ModificadoresAcceso.Paquete1.Clase1;
 
 public class Clase3 extends Clase1{
 

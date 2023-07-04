@@ -1,5 +1,8 @@
 package test;
-import domain.*;
+import Leccion07.domain.*;
+import domain.Empleado;
+import domain.Escritor;
+import domain.TipoEscritura;
 
 public class TestConversionObjetos {
    public static void main(String[] args) {

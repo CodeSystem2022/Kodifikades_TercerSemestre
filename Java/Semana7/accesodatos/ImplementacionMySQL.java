@@ -1,4 +1,4 @@
-package Java.Semana7.accesodatos;
+package accesodatos;
 
 public class ImplementacionMySQL implements IAccessoDatos{
 

@@ -1,4 +1,4 @@
-package Java.Semana7.accesodatos;
+package accesodatos;
 
 public interface IAccessoDatos {
     int MAX_REGISTRO = 10; //atributo constante, estático, publico y final

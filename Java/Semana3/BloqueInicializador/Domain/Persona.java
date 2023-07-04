@@ -1,4 +1,4 @@
-package domain;
+package BloqueInicializador.Domain;
 
 public class Persona {
     private final int idPersonas;

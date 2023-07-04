@@ -1,7 +1,7 @@
-package dominio;
+package UTN.dominio;
 
 public class Estudiante {
-   
+    //atributos privados
     private int idEstudiante;
     private String nombre;
     private String apellido;
@@ -10,12 +10,15 @@ public class Estudiante {
     
     //Sobrecarga de constructores
     
-    public Estudiante(){}
+    //Constructor vacio
+    public Estudiante(){}//Para generar objetos de tipo estudiante con atributos null
     
+    //Constructor para la llave primaria
     public Estudiante(int idEstudiante){
-        this.idEstudiante = idEstudiante; 
+        this.idEstudiante = idEstudiante; //nos va aa permitir eliminar
     }
-
+    
+    //Constructor para insertar un nuevo estudiante
     public Estudiante(String nombre, String apellido, String telefono, String email){
         this.nombre = nombre;
         this.apellido = apellido;
@@ -23,6 +26,7 @@ public class Estudiante {
         this.email = email;
     }
     
+    //Constructor para modificar un elemento en la base de datos
     public Estudiante(int idEstudiante, String nombre, String apellido, String telefono, String email){
         this.idEstudiante = idEstudiante;
         this.nombre = nombre;

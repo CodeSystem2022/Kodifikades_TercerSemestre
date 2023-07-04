@@ -1,6 +1,8 @@
 package test;
 
-import domain.*;
+import Leccion07.domain.*;
+import domain.Empleado;
+import domain.Gerente;
 
 public class TestInstanceOf {
     public static void main(String[] args) {

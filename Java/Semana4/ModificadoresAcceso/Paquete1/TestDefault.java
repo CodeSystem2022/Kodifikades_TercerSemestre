@@ -1,4 +1,6 @@
-package org.example;
+package ModificadoresAcceso.Paquete1;
+
+import ModificadoresAcceso.Paquete2.Clase4;
 
 public class TestDefault {
 

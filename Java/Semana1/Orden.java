@@ -1,5 +1,3 @@
-package ar.com.system2023.mundopc;
-
 public class Orden {
     private final int idOrden = 0;
     private Computadora computadora[]; //arreglo de objetos
